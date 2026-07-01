@@ -1,6 +1,6 @@
 :root{
     --bg:#0f172a;
-    --card:#1e293b;
+    --card:#01173b;
     --primary:#047e6d;
     --text:#f8fafc;
     --muted:#cbd5e1;
@@ -144,6 +144,24 @@ body{
     .dados h1{
 
         font-size:1.8rem;
+    }
+    .hero{
+        min-height: 100vh;
+        display:flex
+        aling-itemns: center;
+    }
+
+    .hero-container{
+        display: grid;
+        grid-template-columns: 350px 1fr;
+        
+        gap: 80px;
+        align-items: center;
+    }
+
+    .hero-image{
+        display: flex;
+        justify-content: center;
     }
 
 }
